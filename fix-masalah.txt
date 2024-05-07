@@ -1,0 +1,21 @@
+1. ERROR TAILWND CSS (ERROR PADA TAILWIND 3.3.3 atau latest)
+Use process(css).then(cb) to work with async plugins
+yarn remove nativewind
+yarn remove tailwindcss
+yarn add postcss@8.4.23
+yarn add --dev tailwindcss@3.3.2
+yarn add nativewind
+
+yarn remove immer
+yarn add immer@9.0.19 use-immer
+
+2. ERROR BUILD EAS
+generate folder android & ios
+npx expo prebuild --no-install --platform android
+
+npm install -g sharp-cli@^2.1.0
+di /android/gradle.properties tambah
+android.disableAutomaticComponentCreation=true
+//============================
+eas build --clear-cache
+//===========================

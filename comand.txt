@@ -1,0 +1,11 @@
+com.deo.websitedeo
+npm install -g eas-cli
+
+yarn android
+eas build -p android
+eas build -p ios
+
+eas submit --platform android
+eas submit --platform ios
+
+	kp326 tahun 2019

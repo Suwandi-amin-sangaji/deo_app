@@ -88,16 +88,14 @@ export default function App() {
         source={require('./../../assets/groovyWalk.json')}
       />
 
-
-
-      <View className="p-4 mt-8">
+      {/* <View className="p-4 mt-8">
         <Text className="text-xl font-semibold text-red-700">LOADING YOUR CONTENT ...</Text>
-      </View>
+      </View> */}
 
       <View className="bg-gray-700 h-36 w-full items-center justify-center flex-col absolute bottom-0 space-y-0"> 
         <Text className="text-white font-bold text-md">KEMENTERIAN PERHUBUNGAN</Text>
         <Text className="text-white font-bold text-lg">REPUBLIK INDONESIA</Text>
-        <Text className="text-white font-bold text-xl">2023</Text>
+        <Text className="text-white font-bold text-xl">2024</Text>
       </View>
     </View>
   );

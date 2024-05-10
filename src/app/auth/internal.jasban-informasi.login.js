@@ -203,7 +203,7 @@ export default () => {
           <Text className="text-lg font-bold text-slate-700">KEMENTERIAN PERHUBUNGAN</Text>
           <Text className="text font-bold  text-slate-700">DIREKTORAT JENDERAL PERHUBUNGAN UDARA</Text>
           <Text className="text-sm font-bold  text-slate-700">BLU UPBU KELAS I DEO SORONG</Text>
-          <Text className="text-lg font-bold  text-slate-700">2023</Text>
+          <Text className="text-lg font-bold  text-slate-700">2024</Text>
         </View>
       </View>
     </SafeAreaView>)

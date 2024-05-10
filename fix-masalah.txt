@@ -19,3 +19,17 @@ android.disableAutomaticComponentCreation=true
 //============================
 eas build --clear-cache
 //===========================
+
+
+
+1. yarn install
+
+# Enable network inspector
+EX_DEV_CLIENT_NETWORK_INSPECTOR=true
+
+Fix when not using Android Studio:
+On android/gradle/wrapper/gradle-wrapper.properties, set distributionUrl=https\://services.gradle.org/distributions/gradle-7.5-all.zip
+On android/build.gradle, set classpath("com.android.tools.build:gradle:7.2.1")
+Rebuild
+
+

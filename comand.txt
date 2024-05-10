@@ -1,11 +1,15 @@
 com.deo.websitedeo
 npm install -g eas-cli
 
+
+Run Expo QR code 
+npx run start
+npx run start -c //untuk membersihkan cache
+
 yarn android
 eas build -p android
 eas build -p ios
 
 eas submit --platform android
 eas submit --platform ios
-
-	kp326 tahun 2019
+kp326 tahun 2019

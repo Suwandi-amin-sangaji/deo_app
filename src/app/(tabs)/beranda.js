@@ -5,6 +5,7 @@ import { FontAwesome, FontAwesome5, MaterialIcons, Ionicons, Entypo, MaterialCom
 import { Link, Stack, router, useNavigation } from 'expo-router';
 import IconPng from "@assets/icon.png";
 import BluPng from "@assets/blu.png";
+import bg from "@assets/bg.png";
 import { useQuery, useQueryClient, useInfiniteQuery } from '@tanstack/react-query';
 import { getFetchClient } from '@api/getFetchClient';
 import { formatDistance, format } from 'date-fns';
@@ -94,17 +95,17 @@ export default () => {
         'flex-row items-center justify-between bg-red-700 py-4'
       )}>
         <View className={classNames(Platform.OS === 'android' ? 'mt-4' : 'mt-8', 'ml-2 space-y-0 flex-row items-center space-x-4')}>
-          <View className=" items-center justify-center">
+          {/* <View className=" items-center justify-center">
             <Image source={IconPng} style={{ width: 55, height: 55, borderRadius: 55 / 2 }} resizeMode="cover" />
-          </View>
-          <View>
+          </View> */}
+          {/* <View>
             <Text className="text-xl text-white font-bold">SELAMAT DATANG</Text>
             <Text className="text-md text-white font-normal uppercase">BLU UPBU Kelas I DEO - Sorong</Text>
-          </View>
+          </View> */}
         </View>
-        <View className={classNames(Platform.OS === 'android' ? 'mt-4' : 'mt-8', 'items-center justify-center shadow-lg mr-4')}>
+        {/* <View className={classNames(Platform.OS === 'android' ? 'mt-4' : 'mt-8', 'items-center justify-center shadow-lg mr-4')}>
           <Image source={BluPng} style={{ width: 55, height: 55, borderRadius: 55 / 2 }} resizeMode="cover" />
-        </View>
+        </View> */}
 
       </View>
       <ScrollView bounces={false} showsVerticalScrollIndicator={false}>
@@ -219,37 +220,49 @@ const Banner = () => {
   }
 
 
-return (<View className="absolute top-0">
-        {data?.length > 0 && (<Swiper
-          dotStyle={{
-            backgroundColor: '#ffffff',
-          }}
-          activeDotColor={'#ffffff'}
-          paginationStyle={styles.contentPage}
-          removeClippedSubviews={false}
-          autoplay={true}
-          autoplayTimeout={3}>
-          {data.map((item, index) => {
-            return (
-              <ImageBackground key={`slider${index}`} source={{uri: item.image?.url}} style={styles.banner}>
-                  
-              </ImageBackground>
-            );
-          })}
-        </Swiper>)}
-      </View>);
+  return (
+    <View className="relative">
+      <Swiper
+        dotStyle={{
+          backgroundColor: '#ffffff',
+        }}
+        activeDotColor={'#ffffff'}
+        // paginationStyle={styles.contentPage}
+        // removeClippedSubviews={false}
+        autoplay={true}
+        autoplayTimeout={3}
+      >
+        <ImageBackground
+          source={require('@assets/bg.png')}
+          // style={styles.banner}
+        >
+        </ImageBackground>
+      </Swiper>
+    </View>
+  );
+  
+
   };
 
 
-
-
-
-
-
-
-
-
-
+  // <View className="absolute top-0">
+  //       {data?.length > 0 && (<Swiper
+  //         dotStyle={{
+  //           backgroundColor: '#ffffff',
+  //         }}
+  //         activeDotColor={'#ffffff'}
+  //         paginationStyle={styles.contentPage}
+  //         removeClippedSubviews={false}
+  //         autoplay={true}
+  //         autoplayTimeout={3}>
+  //         {data.map((item, index) => {
+  //           return (       
+  //             // <ImageBackground key={`slider${index}`} source={{uri: item.image?.url}} style={styles.banner}>              
+  //             // </ImageBackground>
+  //           );
+  //         })}
+  //       </Swiper>)}
+  //     </View>
 
 
 

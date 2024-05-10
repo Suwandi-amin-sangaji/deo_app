@@ -1,41 +1,34 @@
 {
   "project_info": {
-    "project_number": "977872120345",
-    "project_id": "deo-android-2022",
-    "storage_bucket": "deo-android-2022.appspot.com"
+    "project_number": "100319323657",
+    "firebase_url": "https://deoairport-default-rtdb.firebaseio.com",
+    "project_id": "deoairport",
+    "storage_bucket": "deoairport.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:977872120345:android:4db30f732c126d46c8d888",
+        "mobilesdk_app_id": "1:100319323657:android:f608a01be5d77910defad8",
         "android_client_info": {
-          "package_name": "com.deo.websitedeo"
+          "package_name": "com.deoairport"
         }
       },
       "oauth_client": [
         {
-          "client_id": "977872120345-16lu8g7rlb191eutuff4opjo93h1v6ui.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "com.deo.websitedeo",
-            "certificate_hash": "a4674c5f2a1658621354276e0320801ad9f37c0c"
-          }
-        },
-        {
-          "client_id": "977872120345-hln8lp97rjmprid92otaqe1ag9dtp77e.apps.googleusercontent.com",
+          "client_id": "100319323657-gem08sc0nbvfsj423qv0g3k85oevjvov.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyCH8t4cBXCiFtWbx2zesvVfJzTfGiYwafE"
+          "current_key": "AIzaSyCxmPD5OuR8-iSHVRBflySs0cfcYDWXQAI"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "977872120345-hln8lp97rjmprid92otaqe1ag9dtp77e.apps.googleusercontent.com",
+              "client_id": "100319323657-gem08sc0nbvfsj423qv0g3k85oevjvov.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

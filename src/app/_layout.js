@@ -45,12 +45,6 @@ export default function Layout() {
   useAppState(onAppStateChange)
 
 
-
-
-
-
-
-
   async function getOrCreateDeviceId() {
     try {
       const storedId = await SecureStore.getItemAsync('deviceId');

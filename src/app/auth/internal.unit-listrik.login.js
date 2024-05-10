@@ -10,13 +10,10 @@ import * as Google from 'expo-auth-session/providers/google';
 
 
 
-const TITLE = 'LOGIN - UNIT LISTRIK';
+const TITLE = 'LOGIN INTERNAL UNIT LISTRIK';
 const INTERNAL_DATA_NAME = process.env.EXPO_PUBLIC_ASYNC_MEMBER_ACCOUNT_INTERNAL_LISTRIK;
 const BACKEND_LOGIN_URL = `${process.env.EXPO_PUBLIC_BACKEND_URL}/internal-unit-listrik/login`;
 const REDIRECT_SUCCESS = '/internal_content/unit-listrik';
-
-
-
 
 
 const classNames = (...classes) => {

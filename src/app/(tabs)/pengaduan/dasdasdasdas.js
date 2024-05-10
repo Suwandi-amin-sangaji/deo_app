@@ -339,13 +339,6 @@ export default () => {
 
 
 
-
-
-
-
-
-
-
 const ListData = ({ results, pagination, setQuery, setViewMode, setItemFocus, user, reloadData }) => {
 
 
@@ -486,19 +479,6 @@ const FormAdd = ({ setViewMode, title, baseApiUrl, user, reloadData }) => {
     </View>
   </SafeAreaLayout>)
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 const SearchFilters = ({ filters, setFilters, setModalVisible }) => {

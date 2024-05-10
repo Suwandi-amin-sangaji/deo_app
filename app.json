@@ -2,7 +2,7 @@
   "expo": {
     "scheme": "deo-airport-a",
     "name": "DEO AIRPORT",
-    "slug": "deo-airport",
+    "slug": "deoapp",
     "version": "18.1.6",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -44,11 +44,6 @@
     "web": {
       "favicon": "./assets/favicon.png"
     },
-    "extra": {
-      "eas": {
-        "projectId": "6cb3fade-2de1-4ae9-addd-5fed7ef8aca2"
-      }
-    },
     "plugins": [
       "expo-build-properties",
       "@react-native-google-signin/google-signin",
@@ -87,15 +82,21 @@
       [
         "expo-updates",
         {
-          "username": "zlock1988"
+          "username": "suwandiaminsangaji"
         }
       ]
     ],
     "runtimeVersion": {
       "policy": "appVersion"
     },
-    "updates": {
-      "url": "https://u.expo.dev/6cb3fade-2de1-4ae9-addd-5fed7ef8aca2"
-    }
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "46714f2a-8d61-4db8-ac28-f1e7ba91443f"
+      }
+    },
+    "owner": "suwandiaminsangaji"
   }
 }
